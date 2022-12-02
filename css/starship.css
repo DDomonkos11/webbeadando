@@ -1,0 +1,226 @@
+
+@import 'https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap';
+
+
+body{
+    font-family: 'Patrick Hand', cursive;
+    margin-bottom: 40px;
+    font-size: 110%;
+    
+}
+html{
+    background-color:rgb(135, 169, 192);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link,a:visited, a:active,a:hover{
+    color: black;
+}
+p{
+    text-align: justify;
+}
+img{
+    border-radius:10px;
+}
+h1{
+    font-variant: small-caps;
+    margin-top: 13px;
+}
+h2{
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center; 
+    margin-top: 3px;
+}
+h3{
+    font-variant: small-caps;
+    font-size: 160%;
+}
+main{
+    margin-bottom: 200px;
+}
+h4{
+    font-weight: bold;
+    font-size: 140%;
+}
+figcaption{
+    position: relative;
+    top: -20px; left: 500px;
+    font-size: 110%;
+    font-style: italic;
+    width: 700px;
+}
+#picture{
+    width: 600px;
+    margin-left: 160px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    top: -20px;
+}
+#logo{
+    
+    float: left;
+}
+#logo img{
+    width: 200px;
+    margin-left: 0px;
+    position: static;
+    top: 0px;
+}
+div#oldalcim{
+    background-image: url("../media/background7.jpg");
+    background-size: cover;
+}
+#oldalcim{
+    border-style: initial;
+    border-width: 2px;
+    border-style: solid;
+    text-indent: -50px;
+    margin-left: 220px;
+    margin-top: 130px;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.481);
+    text-shadow: 1px 1px 1px #ccc;
+    
+}
+#oldalcim h1{
+    margin-top: 5px; 
+}
+table{
+    height: 265px;
+    margin-top: 100px;
+}
+table, td, tr,th{
+    border-width: 1px;
+    border-style: solid;
+    text-align: left;
+    font-size: 110%;
+}
+#visited{
+    color: rgba(25, 23, 23, 0.291);
+}
+#tabla{
+    margin-right: 1500px;
+    margin-top: 150px;
+    border-width: 0px;
+    margin-left: 10px;
+}
+video{
+    width: 850px;
+    position: absolute;
+    top: 800px; left: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+}
+figcaption{
+    font-family: sans-serif;
+}
+#menusor li#active{
+    background-color: #4300faa2;
+        color: white;
+}
+#menusor{
+    width: 1300px;
+    margin:0 auto;
+    list-style:none;  
+}
+#menusor ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+#menusor li {
+    float:left;
+    border-style: solid;
+    border-width: 2px;
+    height: 40px;
+    background-color: lightblue;
+    border-radius:10px;
+}
+#menusor a{
+    display:block;
+    text-align:center;
+    width:300px;
+    text-decoration:none; 
+    margin-top: -15px;
+}
+#altmenusor{
+    float:right;
+    width: 350px;
+    height: 500px;
+    margin-top: -500px;
+    margin-right: 20px;
+    border: 0px;
+    border-top: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    border-radius: 5px;
+}
+#altmenusor td{
+    text-align: center;
+    margin: auto;
+    border: 0px;
+    width: 0px;
+}
+#foszoveg{
+    margin-right:300px;
+    margin-left: 800px;
+    margin-top: -440px;
+    margin-bottom: 100px;
+    border-style: solid;
+    border-width: 2px;
+    height: 330px;
+    border-radius: 10px;
+}
+#foszoveg2{
+    margin-right:600px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 2px;
+    height: 230px;
+}
+#foszovegcim{
+    margin-right:0px;
+    margin-left: 0px;
+    padding: 0;
+    height: 0px;
+    position: absolute;
+    top: 270px; left: 808px;
+    
+}
+#foszovegcim2{
+    margin-right:900px;
+    margin-left: 10px;
+    padding: 0;
+    height: 0px;
+    margin-bottom:-100px;
+
+}
+#foszovegcim2 h4{
+    text-indent: 10px;
+    
+    width: 400px;
+}
+#foszovegcim h4{
+    text-indent: 10px;
+    border-top: 1px solid;
+    width: 250px;
+    background-color: wheat;
+}
+
+#email{
+    margin-left: 1650px;
+}
+#email ul{
+    list-style-type: none;
+}
+#rightimg{
+    position: absolute;
+    top: 950px; left: 750px;
+    width: 500px;
+}

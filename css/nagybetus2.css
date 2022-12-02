@@ -1,0 +1,11 @@
+@import url('falcon9.css');
+
+body {
+	font-size:130%;	
+}
+
+#gyengenlato{
+    position: relative;
+    top: 300px; left: 000px;
+    margin-bottom: -50px;
+}

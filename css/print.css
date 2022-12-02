@@ -1,0 +1,31 @@
+@media print {
+	
+	@page {
+		margin: 2cm;
+	 }
+     nav {display:none}
+
+     a:after { content: " (" attr(href) ")";}
+
+     #altmenusor{
+        display:none
+     }
+     #logo{
+        display:none
+     }
+     img{
+         width: 20%;
+     }
+     table{
+         width: 30%;
+     }
+     #foszoveg{
+         margin: 0;
+         margin-top: 300px;
+     }
+     #foszoveg2{
+        margin: 0;
+        margin-top: 100px;
+    }
+     
+}

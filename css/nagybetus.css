@@ -1,0 +1,16 @@
+@import url('index.css');
+
+body {
+	font-size:130%;	
+}
+table{
+    width: 350px;
+}
+#foszoveg{
+    height: 300px;
+}
+#gyengenlato{
+    position: relative;
+    top: 100px; left: 1400px;
+    margin-bottom: -50px;
+}

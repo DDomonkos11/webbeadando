@@ -1,0 +1,296 @@
+@import 'https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap';
+
+
+body{
+    font-family: 'Patrick Hand', cursive;
+    margin-bottom: 40px;
+    font-size: 110%; 
+}
+html{
+    background-color:rgb(135, 169, 192);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rejtett {
+    position:absolute; left:-9999px;
+}
+
+nav#tartalomraugras a {
+    position:absolute; left:-9999px
+}
+nav#tartalomraugras a:focus {
+    position:static; background-color:white
+}
+/*div#hatter{
+    background-image: url("../media/background5.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}*/
+.pagelinks{
+    color: black;
+}
+a:link,a:visited, a:active,a:hover{
+    color: black;
+}
+
+p{
+    text-align: justify;
+}
+img{
+    width: 1000px;
+    border-radius:10px;
+}
+h1{
+    font-variant: small-caps;
+    margin-top: 13px;
+}
+h2{
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center; 
+    margin-top: 3px;
+}
+h3{
+    font-variant: small-caps;
+    font-size: 160%;
+}
+main{
+    margin-bottom: 200px;
+}
+h4{
+    font-weight: bold;
+    font-size: 140%;
+}
+#visited:link{
+    color: rgba(251, 255, 0, 0.884);
+}
+a#visited:visited{
+    color: rgba(37, 37, 16, 0.096);
+}
+
+#logo{
+    
+    float: left;
+}
+#logo img{
+    width: 200px;
+}
+#oldalcim{
+    border-style: initial;
+    border-width: 2px;
+    border-style: solid;
+    text-indent: -50px;
+    margin-left: 220px;
+    margin-top: 130px;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.481);
+    text-shadow: 1px 1px 1px #ccc;
+    
+}
+div#oldalcim{
+    background-image: url("../media/background7.jpg");
+    background-size: cover;
+}
+#oldalcim h1{
+    margin-top: 5px; 
+}
+table{
+    height: 265px;
+    margin-bottom: -265px;
+}
+table, tr{
+    border-width: 1px;
+    border-style: solid;
+}
+table, td, tr,th{
+    border-width: 1px;
+    border-style:groove;
+    text-align: left;
+    font-size: 110%;
+}
+#block{
+    display: block;
+}
+#center{
+    text-align:center
+}
+.gray{
+    background-color: gray;
+}
+.gray2{
+    background-color: rgba(128, 128, 128, 0.705);
+}
+.gray3{
+    background-color: rgba(128, 128, 128, 0.227);
+}
+#menusor{
+    width: 1300px;
+    margin:0 auto;
+    list-style:none;  
+}
+#menusor ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+#menusor li {
+    float:left;
+    border-style: solid;
+    border-width: 2px;
+    height: 40px;
+    background-color: lightblue;
+    border-radius:10px;
+}
+#menusor a{
+    display:block;
+    text-align:center;
+    width:300px;
+    text-decoration:none; 
+    margin-top: -15px;
+    
+}
+#menusor li#active{
+    background-color: #4300faa2;
+        color: white;
+}
+
+#altmenusor{
+    float:right;
+    width: 350px;
+    max-width:100%;
+    height: 500px;
+    margin-top: -300px;
+    margin-right: 20px;
+    border: 0px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-radius: 5px;
+}
+#altmenusor td{
+    text-align: center;
+    margin: auto;
+    border: 0px;
+    width: 0px;
+}
+#foszoveg{
+    margin-right:400px;
+    margin-left: 400px;
+    margin-top: -150px;
+    border-style: solid;
+    border-width: 2px;
+    height: 280px;
+    border-radius: 5px;
+}
+#foszovegcim{
+    margin-right:400px;
+    margin-left: 400px;
+    padding: 0;
+    height: 0px;
+    margin-bottom:-30px;
+}
+#foszovegcim h3{
+    text-indent: 10px;
+    border-top: 1px solid;
+    width: 250px;
+    background-color: wheat;
+
+}
+
+#email{
+    margin-left: 1650px;
+}
+#email ul{
+    list-style-type: none;
+}
+#gyengenlato{
+    position: relative;
+    top: 100px; left: 1400px;
+    margin-bottom: -40px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1500px){
+    #altmenusor{
+        width: 100px;
+        margin-left: 0;
+        margin-right: 10px;
+        margin-top: -420px;
+    }
+    #foszoveg{
+        margin-right: 300px;
+        margin-left: 200px;
+        height: 400px;
+    }
+    #email{
+        margin-left: 1300px ;
+    }
+    table{
+        width: 100px;
+    }
+    img{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    #altmenusor{
+        width: 50px;   
+        margin-top: -520px;
+    }
+    #foszoveg{
+        margin-right: 180px;
+        height: 500px;
+        margin-top: 350px;
+    }
+    #foszovegcim{
+        position: relative;
+        top: 350px; left: 0;
+    }
+    #email{
+        margin-left: 1100px ;
+    }
+    table{
+        width: 300px;
+        margin-left: 400px;
+    }
+    #tablecim{
+        margin-left: 400px;
+    }
+    img{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    #altmenusor{
+        width: 350px;
+        margin-left: 0;
+        position: relative;
+        top: 700px; left: 200px;
+    }
+    #foszoveg{
+        margin-right: -200px;
+        height: 700px;
+    }
+    #email{
+        margin-left: 90px ;
+    }
+    table{
+        margin-left: 300px;
+    }
+    #tablecim{
+        margin-left: 300px;
+    }
+    #foszovegcim{
+        position: relative;
+        top: 350px; left: -100px;
+    }
+    img{
+        width: 100%;
+    }
+    
+}

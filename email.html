@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/email.css">
+    <title>Hírlevél feliratkozás</title>
+</head>
+<body>
+    <header>
+        
+        <div id="logo"><img src="media/logo.jpg" alt="SpaceX logó" ></div>
+        
+        <nav>
+            <ul id="menusor">
+                <li><h1><a href="index.html"><span lang="en">A SpaceX-ről</span></a> </h1></li>
+                <li><h1><a href="falcon9.html"><span lang="en">Falcon 9</span></a> </h1></li>
+                <li><h1><a href="crewdragon.html"><span lang="en">Crew Dragon</span></a> </h1></li>
+                <li><h1><a href="starship.html"><span lang="en">Starship</span></a> </h1></li>
+            </ul>
+        </nav>
+        
+        <nav id="email">
+            <ul>
+                <li id="active"><a href="email.html">E-mail feliratkozás</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <main>
+        <div id="oldalcim">
+            <h2> E-mail</h2>
+         </div>
+         <hr>
+         <aside>
+            <div id="foszovegcim">
+                <h3> Feliratkozás a hírlevelünkre </h3>
+            </div>
+        </aside>
+         <form action="mailto:fzrglk@inf.elte.hu" method="POST" enctype="text/plain" id="form">
+            <fieldset>
+                <label for="hetente">Milyen rendszerességgel szeretnéd megkapni a fontos híreket?</label>
+                <input type="radio" name="ido" id="hetente">
+                <label for="hetente"> hetente </label>
+                <input type="radio" name="ido" id="havonta">
+                <label for="havonta"> havonta </label> <br>
+                <label for="e-mail">Email címed:</label>
+                <input type="email" name="e-mail" id="e-mail" size="40" maxlength="30"> <br>
+                <input type="checkbox" name="elfogad" id="elfogad">Elfogadod az ÁSZF-t? <br>
+                <input type="checkbox" name="elfogad2" id="elfogad2">Elfogadod a marketing célú megkereséseket? <br>
+                <label for="comment"> Szeretnél valamit írni nekünk? Itt megteheted!</label>
+                <textarea name="comment" form="form" id="comment"></textarea>
+                <input type="submit" value="Küldés" class="buttons">
+                <input type="reset" value="Alaphelyzet" class="buttons">
+            </fieldset>
+            
+         </form>
+         
+    </main>
+    <footer>
+        <table id="altmenusor">
+            <tr>
+                <td><a href="index.html"> <span lang="en">A SpaceX-ről</span></a></td>
+                <td><a href="falcon9.html"><span lang="en">Falcon 9</span></a> </td>
+            </tr>
+            <tr>
+                <td><a href="crewdragon.html"><span lang="en">Crew Dragon</span></a> </td>
+                <td><a href="starship.html"><span lang="en">Starship</span></a> </td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="email.html">E-mail feliratkozás</a></td>
+                
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>

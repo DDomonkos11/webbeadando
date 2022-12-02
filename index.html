@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css" title="normal">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="alternate stylesheet" href="css/nagybetus.css" title="nagybetus">
+    <link rel="stylesheet" href="css/print.css">
+    <script src="js/slideshow.js"></script>
+	<script src="js/styleswitcher.js"></script>
+    <title>Minden a SpaceX-ről</title>
+</head>
+<body>
+    <header>
+        <nav id="tartalomraugras">
+            <h2 class="rejtett">Ugrás az oldalon belül</h2>
+            <p><a>#tartalom - Ugrás a tartalomra</a></p>
+        </nav>
+        
+        <div id="logo"><img src="media/logo.jpg" alt="SpaceX logó látható a képen fekete háttérrel és fehér betűkkel" ></div>
+        <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;">Nagybetűs változat</a>
+        <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;">Normál változat</a>
+        </nav>
+        <nav>
+            <ul id="menusor">
+                <li id="active"><h1><a  href="index.html"> <span lang="en">A SpaceX-ről</span></a></h1></li>
+                <li><h1><a href="falcon9.html"><span lang="en">Falcon 9</span></a> </h1></li>
+                <li><h1><a href="crewdragon.html"><span lang="en">Crew Dragon</span></a> </h1></li>
+                <li><h1><a href="starship.html"><span lang="en">Starship</span></a> </h1></li>
+            </ul>
+        </nav>
+        
+        <nav id="email">
+            <ul>
+                <li><a href="email.html">E-mail feliratkozás</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <main>
+        <div id="oldalcim">
+           <h2> A <span lang="en">SpaceX-ről</span></h2>
+        </div>
+        <hr>
+        <div>
+            <div class="slideshow-container">
+            <div class="mySlides fade" id="block" >
+                <div class="numbertext">1 / 3</div>
+                <img src="media/starship1.jpg" alt="Starship űrhajó látható a képen közeli fotózásból">
+                <div class="text"><span lang="en">Starship</span> űrhajó</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="media/falcon9.jpg" alt="Falcon 9 rakéta látható a képen közeli fotózásból">
+                <div class="text"><span lang="en">Falcon 9</span> rakéta</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="media/starlink2.jpg" alt="Starlink műholdak látható a képen egy számítógépes grafikával megálmodva">
+                <div class="text"><span lang="en">Starlink</span> műholdak</div>
+            </div>
+  
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+  
+            <div id="center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+    </div>
+    <hr>
+        <aside>
+        <div id="foszovegcim">
+            <h3>Röviden pár mérföldkőről</h3>
+        </div>
+        </aside>
+        <h3 id="tablecim">Fontosabb mérdföldkövek: </h3>
+        <table>
+            <caption>
+                
+                <details>
+                    <summary>Súgó</summary>
+                    <p>A táblázatban a a <span lang="en">SpaceX</span> fontosabb mérföldköveit soroljuk fel időrendben.</p>
+                </details>
+            </caption>
+            <tr>
+                <th class="gray1">Alapítás:</th>
+                <td class="gray1">2001</td>
+            </tr>
+            <tr>
+                <th class="gray2" >Első sikeres fellövés: <span lang="en">(Falcon1)</span></th>
+                <td class="gray2">2008</td>
+            </tr>
+            <tr>
+                <th class="gray3" >Első fokozat első sikeres landolása:</th>
+                <td class="gray3">2015</td>
+            </tr>
+            <tr>
+                <th>A <span lang="en">Starship</span> fejlesztésének kezdete:</th>
+                <td>2019</td>
+            </tr>
+        </table>
+        <article id="foszoveg">
+            <p >Számos történelmi jelentőségű eredmény fűződik a <b><cite><span lang="en"> SpaceX </span></cite></b> nevéhez, így első rakétájuk, a <span lang="en">Falcon</span> 1 volt az első magántőkéből megvalósult 
+                folyékony üzemanyagú rakéta, amely elérte a világűrt (2008. szeptember 28-án); az első  <b>magánvállalat</b>, amely saját fejlesztésű űrhajóját, 
+                a <span lang="en"> Dragon űrhajót </span>  sikeresen Föld körüli pályára állította, majd sikeresen vissza is juttatta azt a Földre (2010. december 9.); 
+                az első magánvállalat, 
+                amely űrhajót (<span lang="en"> Dragon </span>) küldött a <b> <cite>Nemzetközi Űrállomáshoz</cite></b> (2012. május 25.); az első magánvállalat, amely sikeresen állított műholdat 
+                geoszinkron pályára 
+                (2013. december 3.); a világon elsőként a <span lang="en">Falcon 9</span> rakéta landolt sikeresen, miután Föld körüli pályára állított egy műholdat (2015. december 16.); a 
+                világon elsőként a <span lang="en">Falcon</span> 9 rakéta repült újra sikeresen (2017. március 31.).
+                Minőségellenőrzési és költséghatékonysági okokból a <span lang="en">SpaceX</span>
+                 az eszközeinek többségét maga fejleszti és gyártja, ide értve a<span lang="en"> Draco</span>, a <span lang="en">Merlin</span>, a <span lang="en">Kestrel</span> és a 
+                 <span lang="en">Raptor</span> hajtóműveket, valamint a <span lang="en">Dragon </span>űrhajót. 2006-ban a <span lang="en">NASA </span>
+                 szerződést kötött a céggel egy teherűrhajó fejlesztésére és megépítésére, amely képes a 
+                Nemzetközi Űrállomást elérni. <i> Mindez lehetővé teszi a  <span lang="en">SpaceX </span>számára,
+                     hogy az iparág legalacsonyabb árait kínálja ügyfeleinek, valamint, hogy az űripar 
+                más szereplőihez képest lényegesen rövidebb idő alatt fejlessze ki űreszközeit.</i>
+            </p>
+            <p >
+                Bővebben: <a href="https://hu.wikipedia.org/wiki/SpaceX" id="visited">https://hu.wikipedia.org/wiki/SpaceX</a>
+            </p>
+        </article>
+        
+    </main>
+    <footer>
+        <table id="altmenusor">
+            <tr>
+                <td><a href="index.html"> <span lang="en">A SpaceX-ről</span></a></td>
+                <td><a href="falcon9.html"><span lang="en">Falcon 9</span></a> </td>
+            </tr>
+            <tr>
+                <td><a href="crewdragon.html"><span lang="en">Crew Dragon</span></a> </td>
+                <td><a href="starship.html"><span lang="en">Starship</span></a> </td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="email.html">E-mail feliratkozás</a></td>
+                
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
